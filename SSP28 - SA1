@@ -1,1 +1,8 @@
-
+var isOldEnoughToDrink = function(age) {
+  if (age > 21) {
+    return true
+  } else if (age === 21) {
+    return true
+  }
+    return false
+}
